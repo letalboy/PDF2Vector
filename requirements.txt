@@ -1,0 +1,10 @@
+PyPDF2
+os
+pandas
+numpy
+plotly
+seaborn
+sklearn
+torch
+sentence_transformers
+matplotlib
