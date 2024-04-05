@@ -3,7 +3,7 @@ pandas
 numpy
 plotly
 seaborn
-sklearn
+scikit-learn
 torch
 sentence_transformers
 matplotlib
