@@ -84,6 +84,10 @@ pip install -U jupyter notebook tqdm
 
 4. Install the requirements:
 
+---
+
+Base for tokenizer: https://zilliz.com/learn/all-mpnet-base-v2-enhancing-sentence-embedding-with-ai
+
 ```shell
 pip install -r requirements.txt
 ```
