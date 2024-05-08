@@ -14,8 +14,7 @@ Text embedding transforms textual data into high-dimensional vectors that encaps
 ### Application
 We utilize the pre-trained model `all-mpnet-base-v2` from Sentence Transformers, which excels in converting diverse text inputs into semantic vectors.
 
-#### Visual Aid
-*Placeholder for an image illustrating text vectorization.*
+![image](https://github.com/letalboy/PDF2Vector/assets/63066865/309f5627-a576-49b2-b6c2-9582a9405040)
 
 ## Dimensionality Reduction with PCA
 
@@ -25,15 +24,13 @@ PCA tackles the challenge of high-dimensional data by reducing its dimensions, t
 ### Implementation
 We apply PCA to condense the text vectors into three principal components, maintaining the most significant variance present in the original data.
 
-#### Visual Aid
-*Placeholder for a PCA transformation graph.*
+![pca](https://github.com/letalboy/PDF2Vector/assets/63066865/718315dc-03e7-4410-930e-11f78f11069f)
 
 ## Data Visualization
 
 Using Plotly Express, we create interactive 3D scatter plots to visualize the text data in the reduced space, aiding in the understanding of document distribution and clustering.
 
-#### Visual Aid
-*Placeholder for a 3D scatter plot of the PCA-reduced data.*
+![newplot (1)](https://github.com/letalboy/PDF2Vector/assets/63066865/79cdc017-44a4-475a-93d3-faca91744b79)
 
 ## Semantic Similarity Search
 
@@ -47,8 +44,7 @@ Euclidean distance measures the straight-line distance between two points in spa
 
 The query text is embedded into the semantic space, and the Euclidean distance to each document vector is computed. Documents are then ranked by these distances.
 
-#### Visual Aid
-*Placeholder for an image demonstrating Euclidean distance calculation in vector space.*
+![similarity_distance](https://github.com/letalboy/PDF2Vector/assets/63066865/7635aa54-742d-4b9b-b827-a40e13d20c88)
 
 ## Clustering with K-Means
 
@@ -59,9 +55,6 @@ K-Means minimizes variance within clusters, effectively categorizing documents i
 
 ### Implementation
 Documents are partitioned into three clusters, each represented by the nearest centroid.
-
-#### Visual Aid
-*Placeholder for a K-Means clustering graph.*
 
 ## Conclusion
 
